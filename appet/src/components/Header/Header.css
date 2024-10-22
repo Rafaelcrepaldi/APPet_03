@@ -1,0 +1,50 @@
+/* Estilos simplificados para uma navegação mais intuitiva */
+
+/* Avatar do usuário */
+#navImg {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+/* Estilo básico dos botões de navegação */
+.nav-item {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Efeito de hover nos botões */
+.nav-item:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+
+/* Estilo do botão de sair no dropdown */
+.dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item svg {
+    margin-right: 5px;
+}
+
+/* Estilo para a marca no navbar */
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.navbar-brand:hover {
+    color: #0056b3;
+}
+
+/* Remover o indicador de dropdown */
+.dropdown-toggle::after {
+    display: none;
+}
